@@ -14,6 +14,12 @@ main {
 
 @media only screen and (min-width: 90rem) {
     main {
+        margin-top: 64px;
         flex-direction: row;
+        gap: 3rem;
+    }
+
+    .boxContainer {
+        gap: 3rem;
     }
 }

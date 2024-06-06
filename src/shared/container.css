@@ -62,3 +62,14 @@
 .blue::before {
     background: #549EF2;
 }
+
+@media only screen and (min-width: 1440px) {
+    .box {
+        width: 350px;
+        padding: 3.2rem;
+    }
+
+    .box p {
+        margin-top: 0.6rem;
+    }
+}

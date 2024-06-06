@@ -23,6 +23,34 @@
     line-height: 2.5rem;
     letter-spacing: 0.104px;
     margin-top: 13px;
+    opacity: 0.5;
 }
 
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header span {
+        font-size: 3.6rem;
+        font-weight: 300;
+        letter-spacing: 0.25px;
+    }
+
+    .header h1 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        letter-spacing: 0.25px;
+    }
+
+    .header p {
+        width: 540px;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 2.5rem;
+        letter-spacing: 0.104px;
+        opacity: 0.5;
+    }
+}
